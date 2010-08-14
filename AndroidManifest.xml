@@ -11,5 +11,6 @@
         <activity android:name=".About"
                   android:label="@string/about_label"
                   android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".NewSolver"/>
     </application>
 </manifest>

@@ -34,9 +34,10 @@ public class SudokuSolver extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.about_button:
-                Intent i = new Intent(this, About.class);
-                startActivity(i);
+                startActivity(new Intent(this, About.class));
                 break;
+            case R.id.new_button:
+                startActivity(new Intent(this, NewSolver.class));
             case R.id.exit_button:
                 finish();
                 break;

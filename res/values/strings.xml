@@ -14,4 +14,5 @@
         You can check out the code at
         <a href="http://github.com/kenglxn/SudokuSolver">github.com/kenglxn/SudokuSolver</a>
     </string>
+    <string name="newsolver_label">New Solver init</string>
 </resources>
