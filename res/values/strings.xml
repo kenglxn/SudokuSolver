@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">-Sudoku Solver-</string>
+    <string name="app_name">Sudoku Solver</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_title">About Sudoku Solver</string>
+    <string name="about_text">\
+        This application is just for fun.
+        It should be able to solve your Sudoku puzzles for you.
+        Simply enter the numbers that are on your puzzle, and let the app do the solving.
+        Currently only supports 9X9, but may be extended.
+        You can check out the code at
+        <a href="http://github.com/kenglxn/SudokuSolver">github.com/kenglxn/SudokuSolver</a>
+    </string>
+</resources>
