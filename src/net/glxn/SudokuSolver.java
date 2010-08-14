@@ -37,8 +37,9 @@ public class SudokuSolver extends Activity implements View.OnClickListener {
                 Intent i = new Intent(this, About.class);
                 startActivity(i);
                 break;
-
-            // TODO: More buttons go here (if any) ...
+            case R.id.exit_button:
+                finish();
+                break;
         }
     }
 
