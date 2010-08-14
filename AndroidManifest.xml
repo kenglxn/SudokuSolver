@@ -8,6 +8,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".About" android:label="@string/about_label"/>
+        <activity android:name=".About"
+                  android:label="@string/about_label"
+                  android:theme="@android:style/Theme.Dialog"/>
     </application>
 </manifest>
